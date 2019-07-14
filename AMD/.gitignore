@@ -7,4 +7,4 @@
 /build
 /captures
 .externalNativeBuild
-AMD\app\build\generated\source\r\debug\com\google\android\gms\R.java
+/AMD\app\build\generated\source\r\debug\com\google\android\gms\R.java
