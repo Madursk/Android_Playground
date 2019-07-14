@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Automatic Medication Dispenser</string>
+    <string name="users_button">CLIENTES</string>
+    <string name="operators_button">ADMINISTRADOR</string>
+    <string name="buy_button">COMPRAR</string>
+    <string name="scan_button">ESCANEAR QR</string>
+    <string name="nameTextviewText">Nombre del medicamento</string>
+
+
+    <!-- Strings related to login -->
+
+    <string name="title_activity_pharmacy_maps">Map</string>
+    <string name="title_activity_operators">Ingresa</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña)</string>
+    <string name="action_sign_in">Ingresa o registrate</string>
+    <string name="action_sign_in_short">Ingresa </string>
+    <string name="error_invalid_email">La direccion de email es invalida</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">Contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es necesario</string>
+    <string name="permission_rationale">"Permiso de acceder contactos necesario."
+    </string>
+
+
+</resources>

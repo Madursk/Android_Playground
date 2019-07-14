@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.redpeacock.amd.ListViewActivity"
+    android:background="#FFF">
+
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/textview_shape"
+        android:visibility="visible"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/nameTextviewText"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.554" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Su orden ha sido procesada!!!!"
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="74dp"
+        app:layout_constraintHorizontal_bias="0.575" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="..............................................................................."
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="142dp" />
+
+    <TextView
+        android:id="@+id/med_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicamento"
+        android:maxLines="4"
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/name_text_view"
+        app:layout_constraintHorizontal_bias="0.53" />
+
+    <TextView
+        android:id="@+id/type_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textColor="#FFF"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="@drawable/textview_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="57dp"
+        app:layout_constraintTop_toBottomOf="@+id/med_textview"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.524" />
+
+    <TextView
+        android:id="@+id/qty_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad (mg o ml)"
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/type_textview"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.545" />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#30577c"
+        android:text="TERMINAR ORDEN"
+        android:textColor="#FFF"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/qty_textview"
+        android:layout_marginLeft="123dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#30577c"
+        android:textColor="#FFF"
+        android:text="Ayuda"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/qty_textview"
+        app:layout_constraintLeft_toRightOf="@+id/orderButton"
+        android:layout_marginLeft="122dp" />
+
+
+</android.support.constraint.ConstraintLayout>
